@@ -3,4 +3,9 @@ TwitterのUserStreamを保存するためのコードです。
 
 * How to Use
 config.jsonをコード内のConfig構造体にあわせて作成して下さい。
-そして、go run timelinelogを行うとTimeLineの保存を開始します。
+
+#+BEGIN_SRC
+$ go build  
+$ chmod 755 run.sh    
+$ ./run.sh  
+#+END_SRC
